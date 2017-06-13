@@ -7,11 +7,11 @@ os console in python
 - QT GUI
 
 함수를 wrapping하여 사용하는 방식 
-
+```
 def dir():
     if os.isWindows:
         return os.system('dir')
     else:
         return os.system('ls')
-        
+```
 기본적으로 python console을 그대로 사용한다
